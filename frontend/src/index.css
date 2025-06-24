@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #151b35;
+  border-radius: 4px; /* Example: Tailwind's indigo-500 */
+}
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* Example: Tailwind's gray-100 */
+}
+
+.custom-scrollbar::-webkit-scrollbar-button {
+  display: none;
+}
